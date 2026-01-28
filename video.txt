@@ -1,0 +1,8 @@
+
+
+
+
+Build a Real-time Sentiment Analysis Inference Pipeline on Google Cloud Platform
+
+
+video link---- https://drive.google.com/file/d/10t0UrD7x8jNC0cy9V7lqWeJbRFk9u8yq/view?usp=drive_link
