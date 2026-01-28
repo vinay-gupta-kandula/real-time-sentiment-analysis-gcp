@@ -47,6 +47,8 @@ sentiment-analysis-aws/
 ├── publisher_requirements.txt
 ├── sample_texts.json
 ├── README.md
+├── video.txt              # this contains the video demonstration link
+│   
 │
 ├── sentiment_analyzer/
 │   ├── main.py
@@ -138,6 +140,7 @@ aws sts get-caller-identity
 
   * `AWSLambdaBasicExecutionRole`
   * `AmazonSQSFullAccess` (or scoped send/receive permissions)
+  * `comprehend:DetectSentiment`
 
 ---
 
@@ -186,7 +189,7 @@ OK
 
 ```powershell
 $env:AWS_REGION="us-east-1"
-$env:SQS_QUEUE_URL="https://sqs.us-east-1.amazonaws.com/<ACCOUNT_ID>/sentiment-input"
+$env:SQS_QUEUE_URL="https://sqs.us-east-1.amazonaws.com/https://sqs.us-east-1.amazonaws.com/107548170409/sentiment-input/sentiment-input"
 ```
 
 ### Publish Messages
